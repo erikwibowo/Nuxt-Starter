@@ -13,6 +13,10 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import ColorSwitch from "@/components/color-switch.vue";
 
+useHead({
+  title: "Login",
+});
+
 const auth = "auth";
 </script>
 <template>
